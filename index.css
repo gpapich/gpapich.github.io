@@ -1,0 +1,91 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    body {
+       width: 800px;
+       height: 100%;
+       margin: 30px;
+       backround-image: url("background.jpg") 
+    }
+
+    header {
+        background-color: #009900 ;
+        padding: 5px;
+        font-size: ;
+        display: block;
+    }
+    nav {
+        float: left;
+        width: 800px;
+        background-color: #99d699;
+    }
+    nav ul {
+        float: left;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+        font-family: Helvetica, Arial, sans-serif;
+
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+    }
+    p {
+      width: 800px;
+    }
+    h1 {
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+    }
+
+    h2 {
+      width: 800px;
+      /*text-align: center; */
+      font-family: Helvetica, Arial, sans-serif;
+      border-bottom: 2px solid #000000
+    }
+
+    h3 {
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    section {
+        width: 73%;
+        display: inline-block;
+        float: left;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        padding: 20px;
+        width: 790px;
+        background: #7fbf7f;
+        clear: both;
+        display: block;
+    }
+    footer li {
+      list-style-type: none;
+      display: inline;
+      margin: 20px;
+    }
+  .spiffyimg {
+      float: left;
+      margin-right: 20px;
+      padding: 5px;
+    }
